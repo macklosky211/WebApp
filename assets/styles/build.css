@@ -1,0 +1,49 @@
+:root {
+    color: var(--main-color-20);
+}
+
+#equipment-container {
+    position: relative;
+    left:5vw;
+    top:2.5vh;
+    width:25vw;
+    height:95vh;
+    border-radius: 20px;
+    border: 2px solid var(--main-color-2);
+    background-color: var(--main-color-4);
+}
+
+.slot-container {
+    top: 1%;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    margin-top: 1.5%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box; /* Place border within these containers */
+    border-radius: 5px;
+    box-shadow: 0px 5px 2px var(--main-color-1);
+    border: 2px solid var(--main-color-2);
+    background-color: var(--main-color-7);
+}
+
+.slot-container:hover {
+    box-shadow: 0px 1px 2px var(--main-color-1);
+    background-color: var(--main-color-8);
+    top: 1.5%;
+}
+
+.slot-container:active {
+    box-shadow: 0px 1px 2px var(--main-color-1);
+    background-color: var(--main-color-6);
+}
+
+.equipment-slot-image {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
